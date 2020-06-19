@@ -16,6 +16,7 @@ padding: 10px 15px;
 .header-box {
 display: flex;
 flex-direction: row-reverse;
+width: 390px;
 }
 
 .sign-in-txt {
@@ -23,7 +24,7 @@ margin-right: 8px;
 display: inline;
 }
 
-.sign-in-btn{
+.sign-in-btn {
 
 }
 
@@ -41,10 +42,27 @@ background-color: #ffffff;
 border: 2px solid #e2dede;
 }
 
-main{
+main {
 }
 
-footer{
+footer {
 }
 
+.above-form-list {
+list-style: none;
+display: block;
+}
 
+.footer-list {
+list-style: none;
+display: block;
+}
+
+ul li {
+display: inline;
+}
+
+a {
+text-decoration: none;
+color: #0000ff;
+}
