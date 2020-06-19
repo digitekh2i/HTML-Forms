@@ -1,0 +1,18 @@
+* {
+background-color: #cdd4d3;
+}
+
+body {
+text-align: center;
+}
+
+header {
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.header-box {
+display: flex;
+flex-direction: row-reverse;
+}
