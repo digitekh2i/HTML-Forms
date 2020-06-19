@@ -4,19 +4,19 @@ background-color: #e9f0ea;
 
 body {
 text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
 position: absolute;
 top: 0;
 right: 0;
-padding: 10px 15px;
+padding: 10px 18px;
 }
 
 .header-box {
 display: flex;
 flex-direction: row-reverse;
-width: 390px;
 }
 
 .sign-in-txt {
@@ -24,8 +24,15 @@ margin-right: 8px;
 display: inline;
 }
 
-.sign-in-btn {
-
+#sign-in-btn {
+background-color: #0384fc;
+border: #000000;
+border-radius: 4px;
+text-align: center;
+cursor: pointer;
+padding: 11px 24px;
+color: azure;
+font-size: 14px;
 }
 
 #member {
@@ -38,17 +45,40 @@ text-align: center;
 }
 
 .form-box{
-width: 360px;
+width: 345px;
 background-color: #ffffff;
 border: 2px solid #e2dede;
-height: 100%;
 margin: auto;
+text-align: center;
+height: 100%;
+padding-top: 2px;
+padding-bottom: 30px;
+margin-top: 30px;
+margin-right: 150;
+margin-right: 150;
 }
 
 main {
+margin: auto;
 }
 
 footer {
+text-align: center;
+}
+
+.main-form-box {
+display: inline;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+.main-form-box img {
+margin-top: 60px;
+}
+
+.footer-box {
+padding: 10px 5px;
 }
 
 .above-form-list {
@@ -68,4 +98,29 @@ display: inline;
 a {
 text-decoration: none;
 color: #0000ff;
+}
+
+input, 
+select {
+width: 88%;
+padding: 13px 16px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #a9a9a9;
+background-color: #fff;
+}
+
+input[type="submit"] {
+width: 98%;
+background-color: #0384fc;
+color: #ffff;
+padding: 12px 18px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+}
+
+label {
+float: left;
+background-color: #f5f5f5;
 }
