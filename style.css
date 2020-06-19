@@ -38,8 +38,11 @@ text-align: center;
 }
 
 .form-box{
+width: 360px;
 background-color: #ffffff;
 border: 2px solid #e2dede;
+height: 100%;
+margin: auto;
 }
 
 main {
