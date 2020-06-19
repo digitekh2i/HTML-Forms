@@ -1,5 +1,5 @@
 * {
-background-color: #cdd4d3;
+background-color: #e9f0ea;
 }
 
 body {
@@ -10,9 +10,38 @@ header {
 position: absolute;
 top: 0;
 right: 0;
+padding: 10px 15px;
 }
 
 .header-box {
 display: flex;
 flex-direction: row-reverse;
+}
+
+.sign-in-txt {
+margin-right: 8px;
+display: inline;
+}
+
+#member {
+margin-right: 8px;
+display: inline;
+}
+
+.icons-trey {
+text-align: center;
+}
+
+.form-box{
+background-color: #ffffff;
+border: 2px solid #e2dede;
+}
+
+main{
+}
+
+footer{
+}
+
+.form-box-main{
 }

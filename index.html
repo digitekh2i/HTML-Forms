@@ -11,13 +11,13 @@
         <div class="header-box">
             <button type="button"  id="sign-in-btn">Sign in</button>
             <div>
-               <div><span>Already have an intuit account?</span></div>
-               <div><span><a href="">I forgot my user ID or Password</a></span></div>
+               <div><span id="member">Already have an intuit account?</span></div>
+               <div class="sign-in-txt"><span><a href="">I forgot my user ID or Password</a></span></div>
             </div>
         </div>
     </header>
     <main>
-        <div class="form-container">
+        <div class="form-box-main">
            
             <div class="icon-trey">
              <img src="image/logo.jpg" alt="company-logo">
@@ -35,21 +35,20 @@
            </div>
 
            <div class="form-box">
-              <h3></h3>
-               <p> <a href=""></a></p>
+              <h3>Create an Intuit account</h3>
+               <h4>One account for everthing Intuit, including Mint.<br><a href="#">Learn more</a></h4>
 
                <form action="">
-                 <label for=""></label>
-                 <input type="email">
+                 <label for="email">Email address</label>
+                 <input type="email" id="email" name="email" required>
 
-                 <label for="phone"></label>
-                 <input type="text">
-
-                 <label for="Password"></label>
-                 <input type="password">
-                 <label for=""></label>
+                 <label for="phone">Phone (recommended)</label>
+                 <input type="text" id="phone" name="phone">
                  
-                 <input type="text">
+                 <label id="call-messaging-info">Standard call, messaging or data rates may apply.</label>
+                 
+                 <label for="Password">Password</label>
+                 <input type="password" id="Password" name="password">
                  <input type="text">
                </form>
                 <div>
