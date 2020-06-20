@@ -74,7 +74,6 @@ margin-left: auto;
 }
 
 .main-form-box img {
-margin-top: 60px;
 }
 
 .footer-box {
@@ -84,6 +83,15 @@ padding: 10px 5px;
 .above-form-list {
 list-style: none;
 display: block;
+position: relative;
+right: 19px;
+}
+
+.above-form-list img{
+vertical-align: middle;
+width: 23px;
+margin-right: 5px;
+margin-left: 5px;
 }
 
 .footer-list {
@@ -97,7 +105,7 @@ display: inline;
 
 a {
 text-decoration: none;
-color: #0000ff;
+color: #0384fc;
 }
 
 input, 
@@ -123,4 +131,9 @@ cursor: pointer;
 label {
 float: left;
 background-color: #f5f5f5;
+}
+
+#logo {
+width: 130px;
+padding-top: 50px;
 }
