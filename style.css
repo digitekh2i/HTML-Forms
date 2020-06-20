@@ -111,29 +111,62 @@ color: #0384fc;
 input, 
 select {
 width: 88%;
-padding: 13px 16px;
+padding: 11px 14px;
 margin: 8px 0;
 display: inline-block;
 border: 1px solid #a9a9a9;
-background-color: #fff;
+background-color: #ffffff;
 }
 
 input[type="submit"] {
-width: 98%;
+width: 97%;
 background-color: #0384fc;
-color: #ffff;
-padding: 12px 18px;
-margin: 8px 0;
+color: #ffffff;
+padding: 11px 14px;
+margin: 9px 0px;
 border: none;
 cursor: pointer;
 }
 
 label {
 float: left;
-background-color: #f5f5f5;
+background-color: #ffffff;
+padding: 5px;
 }
 
 #logo {
 width: 130px;
 padding-top: 50px;
 }
+
+ h3,h4 {
+background-color: #ffffff;
+text-align: center;
+}
+
+h4 a, h4 em{
+background-color: #ffffff;
+}
+
+.terms {
+background-color: #ffffff;
+ }
+
+.acnts-trms {
+background-color: #ffffff;
+ }
+
+.terms span{
+background-color: #ffffff;
+ }
+
+.terms span a {
+background-color: #ffffff;
+ }
+
+form {
+background-color: #ffffff;
+ }
+
+
+
