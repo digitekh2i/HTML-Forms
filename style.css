@@ -73,9 +73,6 @@ margin-right: auto;
 margin-left: auto;
 }
 
-.main-form-box img {
-}
-
 .footer-box {
 padding: 10px 5px;
 }
@@ -101,11 +98,23 @@ display: block;
 
 ul li {
 display: inline;
+padding: 4px;
 }
 
 a {
 text-decoration: none;
 color: #0384fc;
+}
+
+footer ul {
+position: relative;
+right: 20px;
+top: 12px;
+font-size: 14px;
+}
+
+footer ul li a {
+color: #5e5d5d;
 }
 
 input, 
@@ -154,6 +163,7 @@ background-color: #ffffff;
 
 .acnts-trms {
 background-color: #ffffff;
+font-size: 14px;
  }
 
 .terms span{
@@ -167,6 +177,28 @@ background-color: #ffffff;
 form {
 background-color: #ffffff;
  }
+
+#form-intro {
+font-weight: lighter;
+padding: 2px 8px;
+font-size: 15px;
+ }
+
+#call-messaging-info {
+font-size: 13px;
+padding-top: 1px;
+padding-bottom: 14px;
+}
+
+footer span{
+font-size: 14px;
+color: #5e5d5d;
+}
+
+.terms span em {
+background-color: #ffffff;
+}
+
 
 
 
