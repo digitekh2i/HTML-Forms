@@ -2,7 +2,7 @@
 
 > this is the replication of "intuit.com" sign up page. Completed as a solo project, assigned to me by Microverse.
 
-![screenshot](image/form-page.jpg)
+![screenshot](image/dscreen.jpg)
 
 
 ## Built With
