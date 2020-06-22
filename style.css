@@ -28,7 +28,7 @@ header {
   background-color: #0384fc;
   border: #000;
   border-radius: 4px;
-  text-align: center;
+  text-align: justify;
   cursor: pointer;
   padding: 11px 24px;
   color: azure;
@@ -54,8 +54,6 @@ header {
   padding-top: 2px;
   padding-bottom: 30px;
   margin-top: 30px;
-  margin-right: 150;
-  margin-left: 150;
 }
 
 main {
@@ -216,4 +214,24 @@ form {
   width: 345px;
   position: relative;
   margin: auto;
+}
+
+#keys {
+  background-color: #0384fc;
+  padding: 2px;
+}
+
+#signIn {
+  background-color: #0384fc;
+  align-content: center;
+  padding: 1px;
+}
+
+#keys2 {
+  background-color: #0384fc;
+  padding: 2px;
+  position: relative;
+  top: 35px;
+  right: 60px;
+  color:#fff;
 }
