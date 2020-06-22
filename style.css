@@ -1,204 +1,202 @@
 * {
-background-color: #e9f0ea;
+  background-color: #e9f0ea;
 }
 
 body {
-text-align: center;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
-position: absolute;
-top: 0;
-right: 0;
-padding: 10px 18px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 18px;
 }
 
 .header-box {
-display: flex;
-flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .sign-in-txt {
-margin-right: 8px;
-display: inline;
+  margin-right: 8px;
+  display: inline;
 }
 
 #sign-in-btn {
-background-color: #0384fc;
-border: #000000;
-border-radius: 4px;
-text-align: center;
-cursor: pointer;
-padding: 11px 24px;
-color: azure;
-font-size: 14px;
+  background-color: #0384fc;
+  border: #000000;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  padding: 11px 24px;
+  color: azure;
+  font-size: 14px;
 }
 
 #member {
-margin-right: 8px;
-display: inline;
+  margin-right: 8px;
+  display: inline;
 }
 
 .icons-trey {
-text-align: center;
+  text-align: center;
 }
 
-.form-box{
-width: 345px;
-background-color: #ffffff;
-border: 2px solid #e2dede;
-margin: auto;
-text-align: center;
-height: 100%;
-padding-top: 2px;
-padding-bottom: 30px;
-margin-top: 30px;
-margin-right: 150;
-margin-right: 150;
+.form-box {
+  width: 345px;
+  background-color: #ffffff;
+  border: 2px solid #e2dede;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 150;
+  margin-right: 150;
 }
 
 main {
-margin: auto;
+  margin: auto;
 }
 
 footer {
-text-align: center;
+  text-align: center;
 }
 
 .main-form-box {
-display: inline;
-text-align: center;
-margin-right: auto;
-margin-left: auto;
+  display: inline;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-box {
-padding: 10px 5px;
+  padding: 10px 5px;
 }
 
 .above-form-list {
-list-style: none;
-display: block;
-position: relative;
-right: 19px;
+  list-style: none;
+  display: block;
+  position: relative;
+  right: 19px;
 }
 
-.above-form-list img{
-vertical-align: middle;
-width: 23px;
-margin-right: 5px;
-margin-left: 5px;
+.above-form-list img {
+  vertical-align: middle;
+  width: 23px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .footer-list {
-list-style: none;
-display: block;
+  list-style: none;
+  display: block;
 }
 
 ul li {
-display: inline;
-padding: 4px;
+  display: inline;
+  padding: 4px;
 }
 
 a {
-text-decoration: none;
-color: #0384fc;
+  text-decoration: none;
+  color: #0384fc;
 }
 
 footer ul {
-position: relative;
-right: 20px;
-top: 12px;
-font-size: 14px;
+  position: relative;
+  right: 20px;
+  top: 12px;
+  font-size: 14px;
 }
 
 footer ul li a {
-color: #5e5d5d;
+  color: #5e5d5d;
 }
 
-input, 
+input,
 select {
-width: 88%;
-padding: 11px 14px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #a9a9a9;
-background-color: #ffffff;
+  width: 88%;
+  padding: 11px 14px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #a9a9a9;
+  background-color: #ffffff;
 }
 
 input[type="submit"] {
-width: 97%;
-background-color: #0384fc;
-color: #ffffff;
-padding: 11px 14px;
-margin: 9px 0px;
-border: none;
-cursor: pointer;
+  width: 97%;
+  background-color: #0384fc;
+  color: #ffffff;
+  padding: 11px 14px;
+  margin: 9px 0px;
+  border: none;
+  cursor: pointer;
 }
 
 label {
-float: left;
-background-color: #ffffff;
-padding: 5px;
+  float: left;
+  background-color: #ffffff;
+  padding: 5px;
 }
 
 #logo {
-width: 130px;
-padding-top: 50px;
+  width: 130px;
+  padding-top: 50px;
 }
 
- h3,h4 {
-background-color: #ffffff;
-text-align: center;
+h3,
+h4 {
+  background-color: #ffffff;
+  text-align: center;
 }
 
-h4 a, h4 em{
-background-color: #ffffff;
+h4 a,
+h4 em {
+  background-color: #ffffff;
 }
 
 .terms {
-background-color: #ffffff;
- }
-
-.acnts-trms {
-background-color: #ffffff;
-font-size: 14px;
- }
-
-.terms span{
-background-color: #ffffff;
- }
-
-.terms span a {
-background-color: #ffffff;
- }
-
-form {
-background-color: #ffffff;
- }
-
-#form-intro {
-font-weight: lighter;
-padding: 2px 8px;
-font-size: 15px;
- }
-
-#call-messaging-info {
-font-size: 13px;
-padding-top: 1px;
-padding-bottom: 14px;
+  background-color: #ffffff;
 }
 
-footer span{
-font-size: 14px;
-color: #5e5d5d;
+.acnts-trms {
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.terms span {
+  background-color: #ffffff;
+}
+
+.terms span a {
+  background-color: #ffffff;
+}
+
+form {
+  background-color: #ffffff;
+}
+
+#form-intro {
+  font-weight: lighter;
+  padding: 2px 8px;
+  font-size: 15px;
+}
+
+#call-messaging-info {
+  font-size: 13px;
+  padding-top: 1px;
+  padding-bottom: 14px;
+}
+
+footer span {
+  font-size: 14px;
+  color: #5e5d5d;
 }
 
 .terms span em {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
-
-
-
-
