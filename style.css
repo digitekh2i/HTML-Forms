@@ -166,6 +166,8 @@ footer span {
 
 .terms {
   background-color: #fff;
+  position: relative;
+  bottom: 15px;
 }
 
 .acnts-trms {
@@ -199,4 +201,19 @@ form {
 
 .terms span em {
   background-color: #fff;
+}
+
+.g-recaptcha {
+  background-color: #eceef1;
+  font-size: 11px;
+  position: relative;
+  bottom: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid #e2dede;
+  border-left: 2px solid #e2dede;
+  border-right: 2px solid #e2dede;
+  width: 345px;
+  position: relative;
+  margin: auto;
 }
