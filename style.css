@@ -1,5 +1,5 @@
 * {
-  background-color: #e9f0ea;
+  background-color: #eceef1;
 }
 
 body {
@@ -26,7 +26,7 @@ header {
 
 #sign-in-btn {
   background-color: #0384fc;
-  border: #000000;
+  border: #000;
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
@@ -46,7 +46,7 @@ header {
 
 .form-box {
   width: 345px;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 2px solid #e2dede;
   margin: auto;
   text-align: center;
@@ -55,7 +55,7 @@ header {
   padding-bottom: 30px;
   margin-top: 30px;
   margin-right: 150;
-  margin-right: 150;
+  margin-left: 150;
 }
 
 main {
@@ -113,10 +113,6 @@ footer ul {
   font-size: 14px;
 }
 
-footer ul li a {
-  color: #5e5d5d;
-}
-
 input,
 select {
   width: 88%;
@@ -132,14 +128,14 @@ input[type="submit"] {
   background-color: #0384fc;
   color: #ffffff;
   padding: 11px 14px;
-  margin: 9px 0px;
+  margin: 9px 1px;
   border: none;
   cursor: pointer;
 }
 
 label {
   float: left;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 5px;
 }
 
@@ -150,34 +146,43 @@ label {
 
 h3,
 h4 {
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
 }
 
 h4 a,
 h4 em {
-  background-color: #ffffff;
+  background-color: #fff;
+}
+
+footer ul li a {
+  color: #5e5d5d;
+}
+
+footer span {
+  font-size: 14px;
+  color: #5e5d5d;
 }
 
 .terms {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .acnts-trms {
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 14px;
 }
 
 .terms span {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .terms span a {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 form {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 #form-intro {
@@ -192,11 +197,6 @@ form {
   padding-bottom: 14px;
 }
 
-footer span {
-  font-size: 14px;
-  color: #5e5d5d;
-}
-
 .terms span em {
-  background-color: #ffffff;
+  background-color: #fff;
 }
