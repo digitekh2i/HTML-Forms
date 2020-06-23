@@ -1,0 +1,236 @@
+* {
+  background-color: #eceef1;
+}
+
+body {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 18px;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sign-in-txt {
+  margin-right: 8px;
+  display: inline;
+}
+
+#sign-in-btn {
+  background-color: #0384fc;
+  border: #000;
+  border-radius: 4px;
+  text-align: justify;
+  cursor: pointer;
+  padding: 11px 24px;
+  color: azure;
+  font-size: 14px;
+}
+
+#member {
+  margin-right: 8px;
+  display: inline;
+}
+
+.icons-trey {
+  text-align: center;
+}
+
+.form-box {
+  width: 345px;
+  background-color: #fff;
+  border: 2px solid #e2dede;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+main {
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+.main-form-box {
+  display: inline;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-box {
+  padding: 10px 5px;
+}
+
+.above-form-list {
+  list-style: none;
+  display: block;
+  position: relative;
+  right: 19px;
+}
+
+.above-form-list img {
+  vertical-align: middle;
+  width: 23px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.footer-list {
+  list-style: none;
+  display: block;
+}
+
+ul li {
+  display: inline;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #0384fc;
+}
+
+footer ul {
+  position: relative;
+  right: 20px;
+  top: 12px;
+  font-size: 14px;
+}
+
+input,
+select {
+  width: 88%;
+  padding: 11px 14px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #a9a9a9;
+  background-color: #fff;
+}
+
+input[type="submit"] {
+  width: 97%;
+  background-color: #0384fc;
+  color: #fff;
+  padding: 11px 14px;
+  margin: 9px 1px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  float: left;
+  background-color: #fff;
+  padding: 5px;
+}
+
+#logo {
+  width: 130px;
+  padding-top: 50px;
+}
+
+h3,
+h4 {
+  background-color: #fff;
+  text-align: center;
+}
+
+h4 a,
+h4 em {
+  background-color: #fff;
+}
+
+footer ul li a {
+  color: #5e5d5d;
+}
+
+footer span {
+  font-size: 14px;
+  color: #5e5d5d;
+}
+
+.terms {
+  background-color: #fff;
+  position: relative;
+  bottom: 15px;
+}
+
+.acnts-trms {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.terms span {
+  background-color: #fff;
+}
+
+.terms span a {
+  background-color: #fff;
+}
+
+form {
+  background-color: #fff;
+}
+
+#form-intro {
+  font-weight: lighter;
+  padding: 2px 8px;
+  font-size: 15px;
+}
+
+#call-messaging-info {
+  font-size: 13px;
+  padding-top: 1px;
+  padding-bottom: 14px;
+}
+
+.terms span em {
+  background-color: #fff;
+}
+
+.g-recaptcha {
+  background-color: #eceef1;
+  font-size: 11px;
+  position: relative;
+  bottom: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid #e2dede;
+  border-left: 2px solid #e2dede;
+  border-right: 2px solid #e2dede;
+  width: 345px;
+  margin: auto;
+}
+
+#keys {
+  background-color: #0384fc;
+  padding: 2px;
+}
+
+#signIn {
+  background-color: #0384fc;
+  align-content: center;
+  padding: 1px;
+}
+
+#keys2 {
+  background-color: #0384fc;
+  padding: 2px;
+  position: relative;
+  top: 35px;
+  right: 60px;
+  color: #fff;
+}
