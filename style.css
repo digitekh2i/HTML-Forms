@@ -118,13 +118,13 @@ select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #a9a9a9;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 input[type="submit"] {
   width: 97%;
   background-color: #0384fc;
-  color: #ffffff;
+  color: #fff;
   padding: 11px 14px;
   margin: 9px 1px;
   border: none;
@@ -212,7 +212,6 @@ form {
   border-left: 2px solid #e2dede;
   border-right: 2px solid #e2dede;
   width: 345px;
-  position: relative;
   margin: auto;
 }
 
@@ -233,5 +232,5 @@ form {
   position: relative;
   top: 35px;
   right: 60px;
-  color:#fff;
+  color: #fff;
 }
